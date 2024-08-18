@@ -1,0 +1,342 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container{
+    max-width: 1256px;
+    margin: auto;
+}
+.nav{
+    border-bottom: 1px rgba(128, 128, 128, 0.541) solid
+}
+
+.nav__wrapper{
+    display:flex ;
+    justify-content: space-between;
+}
+
+.nav__logo{
+    margin: 24px;
+
+}
+
+.nav__list{
+    display: flex;
+    gap: 48px;
+    list-style: none;
+    margin: 24px;
+    
+
+}
+.nav__list__item > a{
+    text-decoration: none;
+    color: #9093A6  ;
+}
+
+.hero__wrapper{
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.info__btn__wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero__title{
+  font-weight: 300;
+  font-size: 58px;
+  color: #3F4255;
+  margin-top: 200px;
+  
+}
+
+.hero__btn__delivery{
+    display: flex;
+    gap: 24px;
+    margin-top: 88px;
+}
+
+.hero__btn{
+    display: flex;
+    border: 2px solid #FFE145;
+    border-radius: 4px;
+    padding: 26px;
+    font-weight: 700;
+    font-size: 16px;
+    
+    
+}
+
+.hero__img{
+    margin-top: 25px;
+    /* transition:step-end; */
+
+}
+
+.menu__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 168px;
+}
+
+.menu__theme{
+    font-weight: 300;
+    font-size: 36px;
+    color: #3F4255;
+    margin-left: 20px;
+}
+
+.menu__btn{
+    border-radius: 4px;
+    padding: 16px;
+    background: #F2F4FA;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #9093A6;
+    border: none;
+    
+}
+
+.menu__choose__wrapper{
+    display: flex;
+    margin-top: 48px;
+
+}
+
+.address{
+    background: #F2F4FA;
+    width: 100%;
+    
+}
+
+.address__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.address__title{
+    margin-top: 81px;
+    font-weight: 300;
+    font-size: 36px;
+
+}
+
+.address__info{
+    margin-top: 24px;
+   margin-bottom: 80px;
+    
+}
+
+
+.address__input{
+    margin-top: 81px;
+
+    padding: 18px;
+    width: 320px;
+    border-radius: 6px;
+
+    border: none;
+  
+    
+}
+
+.address__input:focus{
+    border: none;
+    outline: none;
+}
+
+.address___btn{
+    padding: 18px;
+    background: #FFE145;
+    color: #B79C10;
+    border-radius: 4px;
+    border: none;
+}
+
+.info-theme__wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+}
+
+/* ------info qismiga hover qoshtim------- */
+
+.info__card__wrapper{
+    display: flex;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.info__card{
+    display: flex;
+    flex-direction: column;
+    /* border: 1px red solid; */
+    width: 136px;
+    height: 136px;
+    background: #f8f7f7d8;
+    position: relative;
+    
+
+}
+
+.info__card__img{
+    /* border: 1px red solid; */
+    width: 48px;
+    margin-left: 44px;
+    margin-top: 24px;
+  
+
+}
+
+.info__card:hover >img {
+    transform: scale(2); 
+    background: #fafebcdb;
+    transform: rotate(1deg);
+    transform: rotate(1turn);
+    transition-duration: 2s;
+
+    
+}
+
+.info__card:hover .info__card__img{
+    transition: 2s; 
+   
+}
+
+.info__card__name{
+    text-align:center ;
+    margin-top: 16px
+}
+
+.info__card > img{
+    transition: 1s;
+    /* transition-duration: 2s; */
+    
+    
+
+}
+
+.info__card{
+    /* border: 4px red solid; */
+    overflow: hidden;
+    
+}
+
+.lemon__kitchen{
+    margin-top: 72px;
+  
+}
+
+.karta__wrapper{
+    margin-top: 72px;
+}
+
+.instagram__overal{
+   margin-top: 72px;
+}
+
+.instagram__title{
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.instagram__text{
+    font-weight: 300;   
+    font-size: 36px;
+    color: #0000002f;
+
+}
+
+.instagram__wrapper__card{
+    display: flex;
+    gap: 24px;
+    margin-top: 21px;
+
+}
+
+.info__card__icon{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: blue;
+}
+
+.footer__bg{
+    background:#3F4255;
+
+}
+
+.end__yellowkitchen__wrapper{
+    display: flex;
+    /* flex-direction: column; */
+    
+}
+
+.end__yelow{
+  display: flex;
+  flex-direction: column    ;
+}
+
+.end__yellowkitchen__title{
+   color: white;
+   margin-top: 48px;
+   font-weight: 700;
+   font-size: 24px;
+}
+
+.end__yellowkitchen__line{
+    width: 296px;
+    height: 1px;
+    background: #ffffff;
+    margin-top: 48px;
+}
+
+.end__yellowkitchen__icon{
+    margin-top: 48px;
+}
+
+.end__list__wrapper{
+    display: flex;
+}
+
+.end__list{
+    list-style: none;
+    margin-top: 48px;
+    margin-left: 184px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.end__list__item a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.end__list__title{ 
+    font-weight: 400;
+    font-size: 24px;
+   
+}
+
+.end__wrapper{
+    display: flex;
+    margin-top: 49px;
+    justify-content: space-between;
+    color: #fff;
+    
+    
+}
+
+.end__icon__wrapper{
+    display: flex;
+    justify-content: space-between;
+}
